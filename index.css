@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    background-color: burlywood;
+}
+#body{
+    padding-top: 80px;
+}
+#one{
+    max-width: 450px;
+    border: 2px solid transparent;
+    padding: 40px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 10px 10px navy;
+}
+#input{    
+    text-align: center;
+}
+#output{
+    width: 100%;
+    height: 60px;
+    font-size: 40px;
+    border: none;
+}
+button{
+    width: 100%;
+    padding: 20px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: brown;
+}
+#buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
